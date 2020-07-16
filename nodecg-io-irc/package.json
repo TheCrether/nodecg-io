@@ -1,11 +1,11 @@
 {
-  "name": "nodecg-io-intellij",
+  "name": "nodecg-io-irc",
   "version": "0.1.0",
-  "description": "Allows to control JetBrains IDEs via nodecg-io",
+  "description": "Allow to connect to IRC Servers.",
   "homepage": "",
   "author": {
-    "name": "noeppi_noeppi",
-    "url": "https://github.com/noeppi-noeppi"
+    "name": "ExtremTechniker",
+    "url": "https://github.com/ExtremTechniker"
   },
   "scripts": {
     "build": "tsc",
@@ -24,12 +24,12 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^13.13.12",
+    "@types/irc": "0.3.33",
     "nodecg": "^1.6.1",
-    "typescript": "^3.9.6",
-    "@types/node-fetch": "^2.5.7"
+    "typescript": "^3.9.6"
   },
   "dependencies": {
     "nodecg-io-core": "0.1.0",
-    "node-fetch": "^2.5.7"
+    "irc": "0.5.2"
   }
 }
